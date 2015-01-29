@@ -94,23 +94,27 @@
 		BC5399DA1A44DCC90063F482 /* GLActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D51A44DCC90063F482 /* GLActivityKit.framework */; };
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
-		F63FAA081A78EFC40018A332 /* Cocos2DHSMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA071A78EFC40018A332 /* Cocos2DHSMTests.m */; };
-		F63FAA191A78F0420018A332 /* CCStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA161A78F0420018A332 /* CCStateMachine.m */; };
 		F63FAA1D1A79019B0018A332 /* CCStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA161A78F0420018A332 /* CCStateMachine.m */; };
 		F63FAA1F1A79019E0018A332 /* CCStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA161A78F0420018A332 /* CCStateMachine.m */; };
 		F63FAA201A7901A10018A332 /* CCStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA161A78F0420018A332 /* CCStateMachine.m */; };
 		F63FAA231A7904DB0018A332 /* CCStateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA221A7904DB0018A332 /* CCStateTransition.m */; };
 		F63FAA241A7904DB0018A332 /* CCStateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA221A7904DB0018A332 /* CCStateTransition.m */; };
 		F63FAA251A7904DB0018A332 /* CCStateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA221A7904DB0018A332 /* CCStateTransition.m */; };
-		F63FAA261A7904DB0018A332 /* CCStateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA221A7904DB0018A332 /* CCStateTransition.m */; };
 		F63FAA291A79110C0018A332 /* CCStateMachineBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA281A79110C0018A332 /* CCStateMachineBuilder.m */; };
 		F63FAA2A1A79110C0018A332 /* CCStateMachineBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA281A79110C0018A332 /* CCStateMachineBuilder.m */; };
 		F63FAA2B1A79110C0018A332 /* CCStateMachineBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA281A79110C0018A332 /* CCStateMachineBuilder.m */; };
-		F63FAA2C1A79110C0018A332 /* CCStateMachineBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA281A79110C0018A332 /* CCStateMachineBuilder.m */; };
 		F63FAA2F1A79164B0018A332 /* CCStateBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA2E1A79164B0018A332 /* CCStateBinding.m */; };
 		F63FAA301A79164B0018A332 /* CCStateBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA2E1A79164B0018A332 /* CCStateBinding.m */; };
 		F63FAA311A79164B0018A332 /* CCStateBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA2E1A79164B0018A332 /* CCStateBinding.m */; };
-		F63FAA321A79164B0018A332 /* CCStateBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA2E1A79164B0018A332 /* CCStateBinding.m */; };
+		F686CADE1A7A5A1C00A305AA /* TKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AD0A0C1A7A2C67001F9CDA /* TKEvent.m */; };
+		F686CADF1A7A5A2500A305AA /* TKState.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AD0A0E1A7A2C67001F9CDA /* TKState.m */; };
+		F686CAE01A7A5A2B00A305AA /* TKStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AD0A101A7A2C67001F9CDA /* TKStateMachine.m */; };
+		F686CAE11A7A5A3000A305AA /* TKTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AD0A121A7A2C67001F9CDA /* TKTransition.m */; };
+		F6AD0A221A7A3006001F9CDA /* StateMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AD0A211A7A3006001F9CDA /* StateMachineTests.m */; };
+		F6AD0A261A7A3056001F9CDA /* CCStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA161A78F0420018A332 /* CCStateMachine.m */; };
+		F6AD0A271A7A3056001F9CDA /* CCStateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA221A7904DB0018A332 /* CCStateTransition.m */; };
+		F6AD0A281A7A3056001F9CDA /* CCStateMachineBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA281A79110C0018A332 /* CCStateMachineBuilder.m */; };
+		F6AD0A291A7A3056001F9CDA /* CCStateBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAA2E1A79164B0018A332 /* CCStateBinding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,13 +159,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D2FEB60D194F6C9E00FC0574;
 			remoteInfo = cocos2dAndroid;
-		};
-		F63FAA021A78EFC40018A332 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B77F1B2617B978D7009739AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B77F1B2D17B978D7009739AE;
-			remoteInfo = "StateMachineDemo iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -243,9 +240,6 @@
 		BC5399D61A44DCC90063F482 /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
-		F63FA9FE1A78EFC30018A332 /* Cocos2DHSMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cocos2DHSMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F63FAA061A78EFC40018A332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F63FAA071A78EFC40018A332 /* Cocos2DHSMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocos2DHSMTests.m; sourceTree = "<group>"; };
 		F63FAA151A78F0420018A332 /* CCStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStateMachine.h; sourceTree = "<group>"; };
 		F63FAA161A78F0420018A332 /* CCStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCStateMachine.m; sourceTree = "<group>"; };
 		F63FAA211A7904DB0018A332 /* CCStateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStateTransition.h; sourceTree = "<group>"; };
@@ -254,6 +248,18 @@
 		F63FAA281A79110C0018A332 /* CCStateMachineBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCStateMachineBuilder.m; sourceTree = "<group>"; };
 		F63FAA2D1A79164B0018A332 /* CCStateBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStateBinding.h; sourceTree = "<group>"; };
 		F63FAA2E1A79164B0018A332 /* CCStateBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCStateBinding.m; sourceTree = "<group>"; };
+		F6AD0A0B1A7A2C67001F9CDA /* TKEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKEvent.h; sourceTree = "<group>"; };
+		F6AD0A0C1A7A2C67001F9CDA /* TKEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKEvent.m; sourceTree = "<group>"; };
+		F6AD0A0D1A7A2C67001F9CDA /* TKState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKState.h; sourceTree = "<group>"; };
+		F6AD0A0E1A7A2C67001F9CDA /* TKState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKState.m; sourceTree = "<group>"; };
+		F6AD0A0F1A7A2C67001F9CDA /* TKStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKStateMachine.h; sourceTree = "<group>"; };
+		F6AD0A101A7A2C67001F9CDA /* TKStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKStateMachine.m; sourceTree = "<group>"; };
+		F6AD0A111A7A2C67001F9CDA /* TKTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTransition.h; sourceTree = "<group>"; };
+		F6AD0A121A7A2C67001F9CDA /* TKTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTransition.m; sourceTree = "<group>"; };
+		F6AD0A141A7A2C67001F9CDA /* TransitionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionKit.h; sourceTree = "<group>"; };
+		F6AD0A1D1A7A3005001F9CDA /* StateMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AD0A201A7A3006001F9CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AD0A211A7A3006001F9CDA /* StateMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateMachineTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,7 +317,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F63FA9FB1A78EFC30018A332 /* Frameworks */ = {
+		F6AD0A1A1A7A3005001F9CDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -515,12 +521,13 @@
 		B77F1B2517B978D7009739AE = {
 			isa = PBXGroup;
 			children = (
+				F6AD0A0A1A7A2C67001F9CDA /* TransitionKit */,
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				9222E2B918734FF800A246C7 /* libs */,
 				B77F1CCF17B978D8009739AE /* Supporting Files */,
 				F63FA9F51A78EFC30018A332 /* Cocos2DHSM */,
-				F63FAA041A78EFC40018A332 /* Cocos2DHSMTests */,
+				F6AD0A1E1A7A3006001F9CDA /* StateMachineTests */,
 				B77F1B3017B978D7009739AE /* Frameworks */,
 				B77F1B2F17B978D7009739AE /* Products */,
 			);
@@ -532,7 +539,7 @@
 				B77F1B2E17B978D7009739AE /* StateMachineDemo.app */,
 				927F61BF196C771E000F43EF /* StateMachineDemo Android.app */,
 				7A4035FF19DDEE84007B6E8F /* StateMachineDemo Mac.app */,
-				F63FA9FE1A78EFC30018A332 /* Cocos2DHSMTests.xctest */,
+				F6AD0A1D1A7A3005001F9CDA /* StateMachineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -605,20 +612,35 @@
 			path = ../Cocos2DHSM;
 			sourceTree = "<group>";
 		};
-		F63FAA041A78EFC40018A332 /* Cocos2DHSMTests */ = {
+		F6AD0A0A1A7A2C67001F9CDA /* TransitionKit */ = {
 			isa = PBXGroup;
 			children = (
-				F63FAA071A78EFC40018A332 /* Cocos2DHSMTests.m */,
-				F63FAA051A78EFC40018A332 /* Supporting Files */,
+				F6AD0A0B1A7A2C67001F9CDA /* TKEvent.h */,
+				F6AD0A0C1A7A2C67001F9CDA /* TKEvent.m */,
+				F6AD0A0D1A7A2C67001F9CDA /* TKState.h */,
+				F6AD0A0E1A7A2C67001F9CDA /* TKState.m */,
+				F6AD0A0F1A7A2C67001F9CDA /* TKStateMachine.h */,
+				F6AD0A101A7A2C67001F9CDA /* TKStateMachine.m */,
+				F6AD0A111A7A2C67001F9CDA /* TKTransition.h */,
+				F6AD0A121A7A2C67001F9CDA /* TKTransition.m */,
+				F6AD0A141A7A2C67001F9CDA /* TransitionKit.h */,
 			);
-			name = Cocos2DHSMTests;
-			path = ../Cocos2DHSMTests;
+			path = TransitionKit;
 			sourceTree = "<group>";
 		};
-		F63FAA051A78EFC40018A332 /* Supporting Files */ = {
+		F6AD0A1E1A7A3006001F9CDA /* StateMachineTests */ = {
 			isa = PBXGroup;
 			children = (
-				F63FAA061A78EFC40018A332 /* Info.plist */,
+				F6AD0A211A7A3006001F9CDA /* StateMachineTests.m */,
+				F6AD0A1F1A7A3006001F9CDA /* Supporting Files */,
+			);
+			path = StateMachineTests;
+			sourceTree = "<group>";
+		};
+		F6AD0A1F1A7A3006001F9CDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6AD0A201A7A3006001F9CDA /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -684,22 +706,21 @@
 			productReference = B77F1B2E17B978D7009739AE /* StateMachineDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F63FA9FD1A78EFC30018A332 /* Cocos2DHSMTests */ = {
+		F6AD0A1C1A7A3005001F9CDA /* StateMachineTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F63FAA141A78EFC40018A332 /* Build configuration list for PBXNativeTarget "Cocos2DHSMTests" */;
+			buildConfigurationList = F6AD0A231A7A3006001F9CDA /* Build configuration list for PBXNativeTarget "StateMachineTests" */;
 			buildPhases = (
-				F63FA9FA1A78EFC30018A332 /* Sources */,
-				F63FA9FB1A78EFC30018A332 /* Frameworks */,
-				F63FA9FC1A78EFC30018A332 /* Resources */,
+				F6AD0A191A7A3005001F9CDA /* Sources */,
+				F6AD0A1A1A7A3005001F9CDA /* Frameworks */,
+				F6AD0A1B1A7A3005001F9CDA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F63FAA031A78EFC40018A332 /* PBXTargetDependency */,
 			);
-			name = Cocos2DHSMTests;
-			productName = Cocos2DHSMTests;
-			productReference = F63FA9FE1A78EFC30018A332 /* Cocos2DHSMTests.xctest */;
+			name = StateMachineTests;
+			productName = StateMachineTests;
+			productReference = F6AD0A1D1A7A3005001F9CDA /* StateMachineTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -721,9 +742,8 @@
 							};
 						};
 					};
-					F63FA9FD1A78EFC30018A332 = {
+					F6AD0A1C1A7A3005001F9CDA = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = B77F1B2D17B978D7009739AE;
 					};
 				};
 			};
@@ -749,7 +769,7 @@
 				B77F1B2D17B978D7009739AE /* StateMachineDemo iOS */,
 				927F6198196C771E000F43EF /* StateMachineDemo Android */,
 				7A4035FE19DDEE84007B6E8F /* StateMachineDemo Mac */,
-				F63FA9FD1A78EFC30018A332 /* Cocos2DHSMTests */,
+				F6AD0A1C1A7A3005001F9CDA /* StateMachineTests */,
 			);
 		};
 /* End PBXProject section */
@@ -846,7 +866,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F63FA9FC1A78EFC30018A332 /* Resources */ = {
+		F6AD0A1B1A7A3005001F9CDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -942,15 +962,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F63FA9FA1A78EFC30018A332 /* Sources */ = {
+		F6AD0A191A7A3005001F9CDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63FAA261A7904DB0018A332 /* CCStateTransition.m in Sources */,
-				F63FAA2C1A79110C0018A332 /* CCStateMachineBuilder.m in Sources */,
-				F63FAA081A78EFC40018A332 /* Cocos2DHSMTests.m in Sources */,
-				F63FAA321A79164B0018A332 /* CCStateBinding.m in Sources */,
-				F63FAA191A78F0420018A332 /* CCStateMachine.m in Sources */,
+				F686CAE01A7A5A2B00A305AA /* TKStateMachine.m in Sources */,
+				F6AD0A221A7A3006001F9CDA /* StateMachineTests.m in Sources */,
+				F686CADE1A7A5A1C00A305AA /* TKEvent.m in Sources */,
+				F6AD0A281A7A3056001F9CDA /* CCStateMachineBuilder.m in Sources */,
+				F6AD0A261A7A3056001F9CDA /* CCStateMachine.m in Sources */,
+				F6AD0A291A7A3056001F9CDA /* CCStateBinding.m in Sources */,
+				F6AD0A271A7A3056001F9CDA /* CCStateTransition.m in Sources */,
+				F686CADF1A7A5A2500A305AA /* TKState.m in Sources */,
+				F686CAE11A7A5A3000A305AA /* TKTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,11 +996,6 @@
 			name = cocos2dAndroid;
 			targetProxy = 7A97912119E6321C001FFC4D /* PBXContainerItemProxy */;
 		};
-		F63FAA031A78EFC40018A332 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B77F1B2D17B978D7009739AE /* StateMachineDemo iOS */;
-			targetProxy = F63FAA021A78EFC40018A332 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -984,7 +1003,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1005,6 +1023,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"Source/libs/cocos2d-iphone/cocos2d\"/**",
 					"Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/include",
 					"Source/libs/cocos2d-iphone/external/Chipmunk/include",
@@ -1031,7 +1050,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1049,6 +1067,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"Source/libs/cocos2d-iphone/cocos2d\"/**",
 					"Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/include",
 					"Source/libs/cocos2d-iphone/external/Chipmunk/include",
@@ -1300,7 +1319,7 @@
 			};
 			name = Release;
 		};
-		F63FAA0F1A78EFC40018A332 /* Debug */ = {
+		F6AD0A241A7A3006001F9CDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1310,9 +1329,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1322,16 +1342,21 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = ../Cocos2DHSMTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/TransitionKit",
+				);
+				INFOPLIST_FILE = StateMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StateMachineDemo.app/StateMachineDemo";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		F63FAA101A78EFC40018A332 /* Release */ = {
+		F6AD0A251A7A3006001F9CDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1341,21 +1366,27 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = ../Cocos2DHSMTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/TransitionKit",
+				);
+				INFOPLIST_FILE = StateMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StateMachineDemo.app/StateMachineDemo";
-				VALIDATE_PRODUCT = YES;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -1398,11 +1429,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F63FAA141A78EFC40018A332 /* Build configuration list for PBXNativeTarget "Cocos2DHSMTests" */ = {
+		F6AD0A231A7A3006001F9CDA /* Build configuration list for PBXNativeTarget "StateMachineTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F63FAA0F1A78EFC40018A332 /* Debug */,
-				F63FAA101A78EFC40018A332 /* Release */,
+				F6AD0A241A7A3006001F9CDA /* Debug */,
+				F6AD0A251A7A3006001F9CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -18,7 +18,6 @@ static int MainSceneContext = 0;
 {
     CCStateMachineBuilder *builder = [CCStateMachineBuilder stateMachineBuilderWithStates:@[ @"start", @"high", @"low" ]];
     CGPoint pos = [_label positionInPoints];
-    NSLog(@"Label position: %@", NSStringFromCGPoint(pos));
     CGPoint high = ccp(pos.x, pos.y+10);
     CGPoint low = ccp(pos.x, pos.y-10);
     
