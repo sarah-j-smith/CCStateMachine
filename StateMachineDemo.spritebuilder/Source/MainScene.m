@@ -11,6 +11,7 @@ static int MainSceneContext = 0;
     CCStateMachine *_stateMachine;
     
     CCLabelTTF *_label;
+    CCLabelTTF *_stateLabel;
 }
 
 - (void)initializeStateMachine
@@ -19,12 +20,19 @@ static int MainSceneContext = 0;
     CGPoint pos = [_label positionInPoints];
     NSLog(@"Label position: %@", NSStringFromCGPoint(pos));
     CGPoint high = ccp(pos.x, pos.y+10);
-    [builder bind:_label toState:@"high" withKeyPath:@"positionInPoints" toValue:[NSValue valueWithCGPoint:high]];
     CGPoint low = ccp(pos.x, pos.y-10);
-    [builder bind:_label toState:@"low" withKeyPath:@"positionInPoints" toValue:[NSValue valueWithCGPoint:low]];
+    
+    // Set up our State Machine's transitions
     [builder addTransitionFromState:@"start" toState:@"high" onEvent:@"toggle"];
     [builder addTransitionFromState:@"high" toState:@"low" onEvent:@"toggle"];
     [builder addTransitionFromState:@"low" toState:@"high" onEvent:@"toggle"];
+    
+    // Bind some CCNodes to some values so they get updated when a state is entered
+    [builder bind:_label toState:@"high" withKeyPath:@"positionInPoints" toValue:[NSValue valueWithCGPoint:high]];
+    [builder bind:_label toState:@"low" withKeyPath:@"positionInPoints" toValue:[NSValue valueWithCGPoint:low]];
+    [builder bind:_stateLabel toState:@"low" withKeyPath:@"string" toValue:@"LOW"];
+    [builder bind:_stateLabel toState:@"high" withKeyPath:@"string" toValue:@"HIGH"];
+    
     _stateMachine = [builder generateStateMachineWithName:@"Cocos State Machine"];
 }
 

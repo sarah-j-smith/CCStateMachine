@@ -1,6 +1,7 @@
-# Xcode
-#
+.DS_Store
 build/
+*.dll
+*.approj
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -9,18 +10,29 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
 xcuserdata
-*.xccheckout
+profile
 *.moved-aside
 DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
+.idea/
+.sconsign.dblite
+Cocos2DStateMachine.spritebuilder/Source/Resources/Published-iOS
+Cocos2DStateMachine.spritebuilder/Published-Packages
+*.ccb.ppng
+Cocos2DStateMachine.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-tests-osx.xcodeproj/
+Cocos2DStateMachine.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-tests-ios.xcodeproj/
+Cocos2DStateMachine.spritebuilder/Source/libs/cocos2d-iphone/installer/
+Cocos2DStateMachine.spritebuilder/Source/libs/cocos2d-iphone/templates/
+Cocos2DStateMachine.spritebuilder/Source/libs/cocos2d-iphone/tools/
+Cocos2DStateMachine.spritebuilder/Source/libs/cocos2d-iphone/Resources-Mac/
+Cocos2DStateMachine.spritebuilder/Source/libs/cocos2d-iphone/Resources-iPad/
+*.ppng
+Cocos2DStateMachine.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui-tests
+Cocos2DStateMachine.spritebuilder/Source/libs/cocos2d-iphone/Resources
+Cocos2DStateMachine.spritebuilder/Source/libs/cocos2d-iphone.backup*
+Cocos2DStateMachine.spritebuilder/Source/Resources/Published-Android
+SBA0SS.itmsp
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
-#
-# Pods/
+*.ppng
